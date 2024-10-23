@@ -7,7 +7,6 @@
 - Scrambles words by replacing characters with symbols (e.g., "a" becomes "4", "o" becomes "0").
 - Randomly inserts spaces between characters to generate even more variations.
 - Fully customizable with user-inputted words.
-- Display ASCII art branding with "Ryujinx" and an Instagram handle before running.
 
 ## Requirements
 - Python 3.x
@@ -22,3 +21,23 @@ If you don't already have Python installed, follow these steps:
 4. Verify the installation by running the following command in your terminal or command prompt:
    ```bash
    python --version
+
+## How to Run the Tool
+1. Clone this repo with command `git clone https://github.com/serundengsapi/word-scrambler-filter.git` or you can download this repo.
+2. Open a terminal or command prompt in the directory where the script is saved
+3. Run the following command to install `pyfiglet`:
+- Windows
+
+   ```bash
+   python3 pip install -m pyfiglet
+   ```
+- Linux
+
+  ```bash
+  pip3 install pyfiglet
+  ```
+3. The tool will display the ASCII art branding and ask for user input to generate variations of a word. Follow the prompts to input your word and specify how many variations you want.
+
+## Output
+
+![image](https://github.com/user-attachments/assets/6a61c97f-db02-47f2-b735-a202583cb646)
